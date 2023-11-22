@@ -86,7 +86,6 @@ fileInput.onchange = (event) => {
 }
 
 generateBtn.onclick = () => {
-    getTokens();
     generateText();
 }
 
@@ -101,6 +100,7 @@ orderInput.onchange = () => {
 }
 
 window.onload = () => {
+    getTokens();
     textInput.value = beginingText;
     // alert("paste your text in the text box to generate statements based of it. or open a text file with your words");
 }

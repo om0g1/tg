@@ -102,5 +102,4 @@ orderInput.onchange = () => {
 
 window.onload = () => {
     textInput.value = beginingText;
-    // alert("paste your text in the text box to generate statements based of it. or open a text file with your words");
 }

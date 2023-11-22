@@ -426,9 +426,7 @@ In each of the codewords "aaaa", "eeee", "ffff", and "gggg", only one bit is alt
 The term "AnExample" ends up mostly unintelligible and difficult to correct.
 Use of interleaving techniques increases total delay. This is because the entire interleaved block must be received before the packets can be decoded.[23] Also interleavers hide the structure of errors; without an interleaver, more advanced decoding algorithms can take advantage of the error structure and achieve more reliable communication than a simpler decoder combined with an interleaver[citation needed]. An example of such an algorithm is based on neural network[24] structures.
 Simulating the behaviour of error-correcting codes (ECCs) in software is a common practice to design, validate and improve ECCs. The upcoming wireless 5G standard raises a new range of applications for the software ECCs: the Cloud Radio Access Networks (C-RAN) in a Software-defined radio (SDR) context. The idea is to directly use software ECCs in the communications. For instance in the 5G, the software ECCs could be located in the cloud and the antennas connected to this computing resources: improving this way the flexibility of the communication network and eventually increasing the energy efficiency of the system.
-
 In this context, there are various available Open-source software listed below (non exhaustive).
-
 AFF3CT(A Fast Forward Error Correction Toolbox): a full communication chain in C++ (many supported codes like Turbo, LDPC, Polar codes, etc.), very fast and specialized on channel coding (can be used as a program for simulations or as a library for the SDR).
 IT++: a C++ library of classes and functions for linear algebra, numerical optimization, signal processing, communications, and statistics.
 OpenAir: implementation (in C) of the 3GPP specifications concerning the Evolved Packet Core Networks.
